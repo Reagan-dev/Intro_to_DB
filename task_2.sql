@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS Orders (
 );
 
 -- Create table: ORDER_DETAILS
-CREATE TABLE IF NOT EXISTS Order_details (
+CREATE TABLE IF NOT EXISTS Order_Details (
     orderdetailid INT,
     order_id INT,
     book_id INT,
